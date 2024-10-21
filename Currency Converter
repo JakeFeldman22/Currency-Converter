@@ -1,0 +1,9 @@
+def main ():
+  print ("Welcome to Currency Converter")
+  input_currency = input("Enter the currency you want to convert to: ")
+  input_exchange =input("enter the exchange rate of the currency you are converting to")
+  input_amount = input("Enter the amount you want to convert: ")
+  output_amount = input_amount * input_exchange 
+  rounded_number = round(number, f2)
+  print(rounded_number)
+  print ("Thank you for using the currency converter")
